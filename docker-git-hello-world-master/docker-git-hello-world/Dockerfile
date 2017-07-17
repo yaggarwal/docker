@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-MAINTAINER pictolearn
+MAINTAINER Yogesh
 
 RUN apt-get update && apt-get install -y python-software-properties software-properties-common
 RUN apt-get install -y iputils-ping
